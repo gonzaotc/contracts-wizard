@@ -95,6 +95,7 @@
     downloadFoundry: boolean;
   }
 
+  // TODO: Implement openInRemix, downloadHardhat, downloadFoundry
   const getButtonVisibilities = (opts?: KindedOptions[Kind]): ButtonVisibilities => {
     return {
       openInRemix: false,
